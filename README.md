@@ -38,5 +38,24 @@ since there are 52 trading weeks in a year.
 ```
 as we have 12 trading months in a year.<br /><br />
 Although volatility is a widely used measure of risk, it is important to consider that it is sometimes inaccurate due to the assumption of a normal distribution of returns, and thus, does not capture tail risk. 
+<br /><br />
 
+## 3. Sharpe Ratio & Sortino Ratio
+
+**Sharpe ratio** is one of the most widely used methods for measuring risk-adjusted relative returns. More specifically, it is the average return in excess of the risk free rate, per unit of volatility. Investors generally pay close attention to this performance metric when comparing funds. <br /><br />
+A Sharpe ratio of >1 is considered good, >2 considered very good, and >3 is excellent. It is calculated as follows: <br />
+```math
+Sharpe \space Ratio = {{R_p - R_f} \over \sigma_p}
+```
+$R_p =$ Expected Returns <br />
+$R_f =$ Risk Free rate of return <br />
+$\sigma_p =$ Standard Deviation of Asset Returns<br /><br />
+
+On the other hand, **Sortino ratio** is a variation of Sharpe ratio, which only takes into account the standard deviation of negative returns. It originated from one of the criticisms Sharpe ratio faced - the inability to distinguish between upside and downside fluctuation. Sortino makes that distinction, only considering harmful volatility. It corresponds to the Sharpe ratio calculation with just one small change:
+```math
+Sortino \space Ratio = {{R_p - R_f} \over \sigma_n}
+```
+$R_p =$ Expected Returns <br />
+$R_f =$ Risk Free rate of return <br />
+$\sigma_n =$ Standard Deviation of **Negative** Asset Returns<br /><br />
 
