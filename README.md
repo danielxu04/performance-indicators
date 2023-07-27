@@ -17,3 +17,26 @@ CAGR = \left[ {v_f } \over { v_i} \right]^{1 \over t} - 1
 ```
 where v<sub>i</sub> is initial value, v<sub>f</sub> is final value, and t is expressed in years. <br /><br />
 Due to the generality of CAGR, it is versatile and easy to use with different trading strategies. Moreover, since it doesn't reflect investment risk, it is generally good practice to use CAGR alongside a volatility indicator.
+<br /><br />
+
+## 2. Annualized Volatility
+
+Let's preface this performance indicator by mentioning that the volatility of a strategy is represented by the standard deviation of the returns on investment. It strives to capture the variability of returns from the mean return. Annualized Volatility, or annualization, is calculated by multiplying volatility with the square root of the annualization factor. 
+- **Annualization for daily volatility:**
+```math
+\sigma * \sqrt252
+```
+as there are ~252 trading days in a year.
+- **Annualization for weekly volatility:**
+```math
+\sigma * \sqrt52
+```
+since there are 52 trading weeks in a year.
+- **Annualization for monthly volatility:**
+```math
+\sigma * \sqrt12
+```
+as we have 12 trading months in a year.<br /><br />
+Although volatility is a widely used measure of risk, it is important to consider that it is sometimes inaccurate due to the assumption of a normal distribution of returns, and thus, does not capture tail risk. 
+
+
