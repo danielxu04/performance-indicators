@@ -59,3 +59,11 @@ $R_p =$ Expected Returns <br />
 $R_f =$ Risk Free rate of return <br />
 $\sigma_n =$ Standard Deviation of **Negative** Asset Returns<br /><br />
 
+## 4. Maximum Drawdown & Calmar Ratio
+
+**Maximum Drawdown** refers to a crucial performance metric that centers on the largest percentage decline experienced by an asset's price during a specified time horizon. More precisely, it represents the extent between the highest peak and the lowest trough on the line graph, depicting the price fluctuations of the respective asset, wherein the trough must occur subsequent to the peak.<br /><br />
+Given the proclivity for greater volatility and variability in investments subjected to lengthier backtesting periods, it becomes imperitive to be cautious while undertaking comparisons among different investment options. One must ensure the congruity of the maximum drawdown periods. <br /><br />
+The **Calmar Ratio** emerges as a consequential ratio derived from the drawdown aanlysis. The ratio gauges the relationship between the CAGR and the Maximum Drawdown. Serving as a measure of risk-adjusted returns, the Calmar Ratio is computed through the following expression:<br />
+```math
+Calmar \space Ratio = {{Compounded \space Annual \space Return} \over {Maximum \space Drawdown}}
+```
