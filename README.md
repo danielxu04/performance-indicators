@@ -11,7 +11,7 @@ Key Performance Indicators (KPIs) and Backtesting are crucial when developing tr
 
 ## 1. CAGR - Compounded Annual Growth Rate (CAGR)
 
-Compounded Annual Growth Rate is a measurement of the anunaul rate of return realized by assets to reach its current market value from initial value. The calculation is as follows, and assumes the profits are continuously reinvested:
+Compounded Annual Growth Rate is a measurement of the annual rate of return realized by assets to reach its current market value from initial value. The calculation is as follows, and assumes the profits are continuously reinvested:
 ```math
 CAGR = \left[ {v_f } \over { v_i} \right]^{1 \over t} - 1
 ```
